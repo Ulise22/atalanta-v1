@@ -1,0 +1,104 @@
+a {
+    text-decoration: none;
+}
+
+.videos__titulo {
+    background-color: #034AAA;
+    color: #fff;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.videos__titulo h2 {
+    margin-left: 30px;
+}
+
+.videos__container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.video {
+    padding: 20px;
+    height: 180px;
+    min-width: 350px;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    transition: box-shadow .4s ease-out;
+}
+
+.video:hover {
+    box-shadow: 0px 0px 18px 0px rgba(0, 0, 0, 0.75);
+    transition: box-shadow .4s ease-out;
+}
+
+.video span {
+    text-align: end;
+}
+
+.video__logo {
+    background: #333;
+    align-self: center;
+    border-radius: 10px;
+    width: fit-content;
+    padding: 15px 30px;
+    transition: background .5s ease;
+}
+
+.video__logo:hover {
+    background: #222;
+    transition: background .5s ease;
+}
+
+.video__titulo {
+    font-weight: 600;
+    text-align: end;
+}
+
+.video-1 {
+    background-image: linear-gradient(to right, #1E83E155, #034AAA99), url(./../../../componentes/images/atalanta-v-parma.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.video-2 {
+    background-image: linear-gradient(to right, #1E83E155, #034AAA99), url(./../../../componentes/images/atalanta-v-inter.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.video-3 {
+    background-image: linear-gradient(to right, #1E83E155, #034AAA99), url(./../../../componentes/images/ata-v-napoli.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.videos__btn {
+    background: #023888;
+    margin-top: 20px;
+    padding: 1px;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    transition: all .5s ease;
+}
+
+.videos__btn:hover {
+    background: #ddd;
+    color: #023888;
+    transition: all .5s ease;
+}
+
+@media screen and (max-width: 960px) {
+    .videos__container {
+        justify-content: center;
+    }
+
+    .video {
+        min-width: 300px;
+    }
+}

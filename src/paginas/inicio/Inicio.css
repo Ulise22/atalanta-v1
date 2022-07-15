@@ -1,0 +1,18 @@
+.inicio__container {
+    width: 50%;
+    margin-left: 10%;
+}
+
+@media screen and (max-width: 960px) {
+    .inicio__container {
+        width: 90%;
+        margin-left: 0;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 525px) {
+    .inicio__container {
+        width: 99%;
+    }
+}

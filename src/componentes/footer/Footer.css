@@ -1,0 +1,41 @@
+.footer {
+    background-color: #222;
+}
+
+.footer__container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+.footer__patrocinios {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25%;
+    justify-content: space-around;
+}
+
+.footer__patrocinios__imagen {
+    width: 200px;
+}
+
+.footer__patrocinios__imagen img {
+    width: inherit;
+}
+
+.footer__text {
+    border-top: 1px solid #999;
+    padding: 30px;
+    text-align: center;
+    color: #fff;
+}
+
+.footer__text__a {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.footer__text__a:hover {
+    color: #ddd;
+}

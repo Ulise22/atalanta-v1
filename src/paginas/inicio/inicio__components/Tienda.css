@@ -1,0 +1,90 @@
+.tienda__titulo {
+    padding: 10px;
+    background-color: #034AAA;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.tienda__titulo h2 {
+    margin-left: 20px;
+}
+
+.slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    width: 70%;
+}
+
+.slide {
+    opacity: 0;
+    transition-duration: 1s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: 1s;
+}
+
+.slider__container {
+    display: flex;
+    gap: 100px;
+}
+
+.slider__btn {
+    border: none;
+    border-radius: 10px;
+    background-color: #023888;
+    color: #fff;
+    font-weight: 600;
+    padding: 20px;
+    transition: all .4s ease;
+}
+
+.slider__btn:hover {
+    color: #023888;
+    background-color: #ddd;
+    transition: all .4s ease;
+    cursor: pointer;
+}
+
+.slide__padre {
+    background-color: #1E83E1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.fas {
+    color: #fff;
+    padding: 0 20px;
+    cursor: pointer;
+    transition: color .3s ease;
+}
+
+.fas:hover {
+    color: #ddd;
+    transition: color .3s ease;
+}
+
+@media screen and (max-width: 960px) {
+    .fas {
+        padding: 0;
+    }
+
+    .imagen {
+        width: 55%;
+    }
+
+    .slider__container {
+        gap: 50px;
+    }
+}
