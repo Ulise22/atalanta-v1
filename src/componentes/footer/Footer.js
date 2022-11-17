@@ -48,7 +48,7 @@ const Footer = () => {
                     <a href="/" className="footer__text__a">Terminos y Condiciones</a>
                     <a href="/" className="footer__text__a">Contactanos</a>
                     <a href="/" className="footer__text__a">Politica de Privacidad</a>
-                    <h4>Atalanta Bergamasca Calcio ©2022 Todos los derechos reservados</h4>
+                    <h4 className="footer__text__copy">Atalanta Bergamasca Calcio ©2022 Todos los derechos reservados</h4>
                 </div>
             </div>
         </div>

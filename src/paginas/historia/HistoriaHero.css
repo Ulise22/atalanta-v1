@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+.historiaHero {
+    height: calc(100vh - 80px);
+    background-image: linear-gradient(180deg, #3548e533 0%, #3548e5ee 100%), url('./images/crowd-bg.png');
+    overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.historiaHero__title {
+    color: #fff;
+    display: flex;
+    height: 90%;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: 48px;
+    font-family: 'Noto Serif', serif;
+}

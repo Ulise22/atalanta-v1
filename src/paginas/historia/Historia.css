@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
+
+.historia__container {
+    background-color: #fff;
+    width: 75%;
+    overflow: hidden;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.historia__text {
+    padding: 0 30px;
+}
+
+.historia__subtitulo {
+    font-family: 'Noto Serif', serif;
+}
+
+.historia__image {
+    width: 100%;
+}
+
+@media screen and (max-width: 560px) {
+    .historia__container {
+        width: 100%;
+        padding: 20px 0;
+    }
+
+    
+}

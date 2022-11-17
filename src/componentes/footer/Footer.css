@@ -39,3 +39,7 @@
 .footer__text__a:hover {
     color: #ddd;
 }
+
+.footer__text__copy {
+    color: #fff;
+}
