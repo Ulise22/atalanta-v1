@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&display=swap');
 
 .historiaHero {
-    height: calc(100vh - 80px);
+    height: 100vh;
     background-image: linear-gradient(180deg, #3548e533 0%, #3548e5ee 100%), url('./images/crowd-bg.png');
     overflow: hidden;
     background-position: center;

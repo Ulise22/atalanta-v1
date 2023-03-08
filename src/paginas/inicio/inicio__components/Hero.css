@@ -97,6 +97,7 @@
 
 .hero__sidebar {
     margin-left: 20px;
+    margin-top: 80px;
 }
 
 .sidebar__nextMatch {
@@ -228,6 +229,7 @@
 
     .hero__sidebar {
         margin-left: 0;
+        margin-top: 0;
     }
 
     .sidebar__nextMatch {
